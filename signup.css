@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #ffd416;
+	border-radius: 20px;
+	padding-top: 20px;
+	width: 420px;
+	height: 675px;
+	margin-top: 65px;
+	margin-bottom: 100px;
+}
+.center h1{
+	text-align: center;
+	padding: 0 0 10px 0;
+	border-bottom: 2px solid #ff7e00;
+}
+.center form{
+	margin: auto;
+	box-sizing: border-box;
+}
+form .txt_field{
+	position: relative;
+	border-bottom: 1.5px solid #ff7e00;
+	margin: 23px 0;
+	margin-left: 29px;
+	margin-right: 29px;
+}
+.txt_field input{
+	width: 351px;
+	padding: 0px 5px;
+	padding-left: 6px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	margin-left: 0px;
+}
+input[type="submit"]{
+	margin-left: 28px;
+	width: 87%;
+	height: 50px;
+	border: none;
+	background: white;
+	border-radius: 25px;
+	font-size: 18px;
+	font-weight: 700;
+	cursor: pointer;
+	outline: none;
+}
+input[type="submit"]:hover{
+	border: 2px solid #ff7e00;
+	transition: .5s;
+}
+.login_link{
+	margin: 20px 0;
+	text-align: center;
+	font-size: 16px;
+	color: black;
+}
+.login_link a{
+	color: black;
+	text-decoration: none;
+}
+.login_link a:hover{
+	text-decoration: underline;
+}
+html{
+	background-color: #f5f5f5;
+}
+@media only screen and (max-width: 992px){
+	.center{
+		top: 37%;
+		left: 48%;
+	}
+}
+i{
+	font-size: 40px;
+	position: fixed;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: black;
+}
+i:hover{
+	color: #ff7e00;
+}
